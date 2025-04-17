@@ -25,7 +25,7 @@ const FoodStallAdminPanel = () => {
       nameMarathi: "बर्गर",
       price: "50",
       category: "Fast Food",
-      description: "Juicy beef patty with fresh veggies",
+      description: "Juicy patty with fresh veggies",
       descriptionMarathi: "रसाळ बीफ पॅटी आणि ताजी भाज्या",
       image: "https://via.placeholder.com/150",
     },

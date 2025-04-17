@@ -19,7 +19,7 @@ const AddStallModal = ({
           <h2 className="text-xl font-semibold text-white">Add New Hotel</h2>
           <button
             onClick={closeAddStallModal}
-            className="text-gray-300 hover:text-white"
+            className="text-gray-300 hover:text-white cursor-pointer"
           >
             <FaTimes className="text-2xl" />
           </button>
@@ -154,7 +154,7 @@ const AddStallModal = ({
         <div className="flex justify-between gap-4 mt-6">
           <button
             onClick={handleAddStall}
-            className="w-full bg-yellow-400 text-orange-900 px-4 py-2 rounded-lg font-semibold hover:bg-yellow-600 hover:text-white transition"
+            className="w-full bg-yellow-400 text-orange-900 px-4 py-2 rounded-lg font-semibold hover:bg-yellow-600 hover:text-white transition cursor-pointer"
           >
             Add Hotel
           </button>
